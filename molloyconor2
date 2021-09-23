@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Static Template</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Pints</title>
+    <link rel="stylesheet" href="">
   </head>
+
   <body>
 
     <h1>
@@ -23,12 +24,12 @@
 
       <h3>
       Much adored by many across the land due to its : 
-      <h3>
+      </h3>
 
       <ol>
         <li><h2>Thick and creamy texture</h2></li>
         <li><h2>Moist flavour</h2></li>
-        <li><h2>Ability to alter people's <em><strong>PErCePTiON</em></strong> of objectects and text!</h2></li>
+        <li><h2>Ability to alter people's <em><strong>PErCePTiON</strong></em> of objectects and text!</h2></li>
       </ol>
 
       <h3> Despite the jokes, it's actually quite an interesting tour:</h3>
