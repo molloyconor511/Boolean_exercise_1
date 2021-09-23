@@ -1,0 +1,13 @@
+h1 {
+    color: firebrick;
+    background-color: white;
+    text-align: center;
+  }
+  .first {
+    background-color: sienna;
+  }
+  
+  .second {
+    color: black;
+    background-color: lightcoral;
+  }
