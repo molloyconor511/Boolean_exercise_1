@@ -1,13 +1,62 @@
-h1 {
-    color: firebrick;
-    background-color: white;
-    text-align: center;
-  }
-  .first {
-    background-color: sienna;
-  }
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.container {
+  height: 1fr;
+  width: 1fr;
+  display: grid;
+  grid-template: 
+  "top       top         top        top"10vh
+  "left-main middle-main right-main side-panel"90vh/
+  20vw 55vw 20vw 5vw;
+}
+.top {
+  grid-area: top;
+  display: grid;
+  grid-template-columns: 20vw 50vw 30vw;
+}
+.logo {
+  display: grid;
+  grid-template-columns: 25vw 75vw;
+}
+.left-main {
+  color: black;
+  grid-area: left-main;
+  display: grid;
+  grid-template: 
+  "compose"15vh
+  "mail-labels"40vh
+  "meet"15vh
+  "hangouts"25vh
+  "hangouts-info"5vh/
+  20vw;
+}
+.compose, .mail-labels, .meet, .hangouts {
+  border: 1px black solid;
+}
+.container .left-main .compose #new-mail {
+  color: black;
+  border: 2px gray solid;
+  border-radius: 100px;
+  padding: 10px;
+  margin: 5px;
+  display: grid;
+  place-items: center;
+  text-decoration: none;
   
-  .second {
-    color: black;
-    background-color: lightcoral;
-  }
+}
+.middle-main {
+  grid-area: middle-main;
+}
+.right-main {
+  grid-area: right-main;
+}
+.side-panel {
+  grid-area: side-panel;
+}
+.top, .left-main, .middle-main, .right-main, .side-panel {
+  border: 1px solid grey;
+}
+
